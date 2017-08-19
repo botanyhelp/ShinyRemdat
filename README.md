@@ -5,11 +5,17 @@ Disasters wordwide from 1900-2008 A comprehensive listing of of over 17,000 disa
 
 ## At a minimum, running this application requires the packages named **shiny**, **ggplot2** and **Remdata**, install them, in R, like this:
 
+
 `install.packages("ggplot2")`
+
 `install.packages("shiny")`
+
 `install.packages("devtools")`
+
 `library(devtools)`
+
 `install_github("botanyhelp/Remdata")`
+
 
 Installing the shiny R package on an Apple Mac generally requires that the Mac have Xcode installed.  
 
@@ -39,30 +45,29 @@ Starting from the Terminal App on a Mac works like this:
 
 ..and causes output like this to appear.  Here we can see that the Mac selected port 7005 to run the shiny server.  In this case the URL where the application was running would be **http://127.0.0.1:7005** which can be opened by a web browser running on the same machine.  
 
-`
-R version 3.2.1 (2015-06-18) -- "World-Famous Astronaut"
-Copyright (C) 2015 The R Foundation for Statistical Computing
-Platform: x86_64-apple-darwin10.8.0 (64-bit)
 
-R is free software and comes with ABSOLUTELY NO WARRANTY.
-You are welcome to redistribute it under certain conditions.
-Type 'license()' or 'licence()' for distribution details.
-
-  Natural language support but running in an English locale
-
-R is a collaborative project with many contributors.
-Type 'contributors()' for more information and
-'citation()' on how to cite R or R packages in publications.
-
-Type 'demo()' for some demos, 'help()' for on-line help, or
-'help.start()' for an HTML browser interface to help.
-Type 'q()' to quit R.
-
-> shiny::runApp("~/ShinyRemdat/app.R")
-Loading required package: shiny
-
-Listening on http://127.0.0.1:7005
-`
+`R version 3.2.1 (2015-06-18) -- "World-Famous Astronaut"`
+`Copyright (C) 2015 The R Foundation for Statistical Computing`
+`Platform: x86_64-apple-darwin10.8.0 (64-bit)`
+``
+`R is free software and comes with ABSOLUTELY NO WARRANTY.`
+`You are welcome to redistribute it under certain conditions.`
+`Type 'license()' or 'licence()' for distribution details.`
+``
+`  Natural language support but running in an English locale`
+``
+`R is a collaborative project with many contributors.`
+`Type 'contributors()' for more information and`
+`'citation()' on how to cite R or R packages in publications.`
+``
+`Type 'demo()' for some demos, 'help()' for on-line help, or`
+`'help.start()' for an HTML browser interface to help.`
+`Type 'q()' to quit R.`
+``
+`> shiny::runApp("~/ShinyRemdat/app.R")`
+`Loading required package: shiny`
+``
+`Listening on http://127.0.0.1:7005`
 
 
 ## Licensing 
