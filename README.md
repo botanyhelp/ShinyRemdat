@@ -29,7 +29,7 @@ ShinyRemdat is a single file application located in app.R.  It can be started wi
 
 ..and then the application will be visible on the server on the host where it was started, in this example case, here:
 
-[ShinyRemdat](li1077-179.members.linode.com:8787)
+<http://li1077-179.members.linode.com:8787>
 
 ..technically you won't need either the **sudo** nor the **nohup** parts of the command because any user can start a server listening on port 8787, as we do in the example.  To listen on port 80, for example, you would require **sudo** or you would need to start it as root.  Port 80 would need to be free on that machine:
 
