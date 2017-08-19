@@ -1,6 +1,8 @@
 # ShinyRemdat
 ## About
 
+ShinyRemdat is a single file, **app.R**, shiny application.  It loads the disasters worldwide R package from **botanyhelp/Remdata** and uses it to display a few interactive graphs about the data.  
+
 Disasters wordwide from 1900-2008 A comprehensive listing of of over 17,000 disasters, natural and otherwise, from around the globe.
 
 ## At a minimum, running this application requires the packages named **shiny**, **ggplot2** and **Remdata**, install them, in R, like this:
